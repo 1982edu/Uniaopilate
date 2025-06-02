@@ -1,0 +1,28 @@
+
+:root {
+  --verde-escuro: #1a5d1a;
+  --verde-medio: #2e8b57;
+  --verde-claro: #3cb371;
+  --preto-escuro: #121212;
+  --preto-claro: #1e1e1e;
+  --branco: #fff;
+}
+body {
+  background: linear-gradient(to bottom, var(--preto-escuro), var(--preto-claro));
+  color: var(--branco);
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  background: var(--preto-escuro);
+  position: fixed;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo {
+  color: var(--verde-claro);
+  font-weight: bold;
+}
